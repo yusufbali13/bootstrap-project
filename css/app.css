@@ -1,18 +1,15 @@
 :root {
   --red: #dc3545;
 }
-
 /*! -------------- 1- NAVBAR ---------------- */
 /* .navbar {
-  background-color: seashell !important;
-} */
-
+    background-color: seashell !important;
+  } */
 .navbar .navbar-nav {
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 600;
 }
-
 .navbar .nav-link {
   transition: color 0.7s;
 }
@@ -31,7 +28,6 @@
   font-size: 2.4rem;
   text-shadow: 3px 3px 3px black;
 }
-
 .carousel-caption p {
   text-shadow: 3px 3px 3px black;
   font-weight: 600;
@@ -40,15 +36,15 @@
 .carousel-caption .btn {
   width: 7rem;
 }
-
 .carousel-caption {
-  bottom: 5rem;
+  bottom: 6rem;
 }
 
 .carousel-indicators {
   gap: 0.7rem;
 }
 
+/*! bootstrap tarafından verilmiş stilleri ezmek için !important kullanılması gerekir*/
 .carousel-indicators button {
   background-color: var(--red) !important;
   height: 0.4rem !important;
