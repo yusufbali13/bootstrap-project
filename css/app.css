@@ -44,6 +44,15 @@
   gap: 0.7rem;
 }
 
+div .fa-brands {
+  color: var(--red);
+}
+
+div .fa-brands:hover {
+  transition: all 1s;
+  opacity: 0.5;
+}
+
 /*! bootstrap tarafından verilmiş stilleri ezmek için !important kullanılması gerekir*/
 .carousel-indicators button {
   background-color: var(--red) !important;
