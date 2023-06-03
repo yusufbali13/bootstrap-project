@@ -48,11 +48,6 @@ div .fa-brands {
   color: var(--red);
 }
 
-div .fa-brands:hover {
-  transition: all 1s;
-  opacity: 0.5;
-}
-
 /*! bootstrap tarafından verilmiş stilleri ezmek için !important kullanılması gerekir*/
 .carousel-indicators button {
   background-color: var(--red) !important;
@@ -63,6 +58,18 @@ div .fa-brands:hover {
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
+
+section#instructors .card {
+  transition: transform 0.3;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.03);
+}
+
+section#instructors i:hover {
+  opacity: 0.5;
+}
 
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
